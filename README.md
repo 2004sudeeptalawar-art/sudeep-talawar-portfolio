@@ -1,16 +1,42 @@
-# React + Vite
+# SUDEEP TALAWAR — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Modern, responsive portfolio website showcasing full stack web applications and AI solutions built with Python, React, and Django.
 
-Currently, two official plugins are available:
+**Live site:** [https://YOUR-SITE-URL/](https://YOUR-SITE-URL/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- **React 19** — Component-based user interface architecture
+- **Vite** — High-performance frontend build tool and dev server
+- **Tailwind CSS 4** — Modern utility-first styling system
+- **Framer Motion** — Production-ready declarative animations and gestures
+- **AOS** — Animate On Scroll library for smooth section reveals
+- **EmailJS** — Direct client-side contact form messaging
+- **WebGL** — Hardware-accelerated fluid simulation splash cursor
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run Locally
 
-## Expanding the Oxlint configuration
+```bash
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Start the local development server
+npm run dev
+
+# Build the production bundle
+npm run build
+```
+
+## Environment Variables
+
+To enable contact form submissions via EmailJS, create a `.env.local` file in the root directory containing the following variables (without values committed):
+
+```env
+VITE_EMAILJS_SERVICE_ID=
+VITE_EMAILJS_TEMPLATE_ID=
+VITE_EMAILJS_PUBLIC_KEY=
+```
+
+## Credits
+
+Built during the placement training program at [TAP Academy](https://thetapacademy.com/).
