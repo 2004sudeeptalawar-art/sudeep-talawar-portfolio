@@ -2,7 +2,7 @@
 
 Modern, responsive portfolio website showcasing full stack web applications and AI solutions built with Python, React, and Django.
 
-**Live site:** [https://YOUR-SITE-URL/](https://YOUR-SITE-URL/)
+**Live site:** [https://my-portfolio-indol-chi-94.vercel.app/](https://my-portfolio-indol-chi-94.vercel.app/)
 
 ## Tech Stack
 

@@ -87,33 +87,57 @@ export const technicalSkills = {
   categories: [
     {
       title: "Programming",
-      skills: [{ name: "Python" }, { name: "JavaScript" }, { name: "C" }],
-    },
-    {
-      title: "Web Development",
       skills: [
-        { name: "HTML & CSS" },
-        { name: "Django" },
-        { name: "Flask" },
-        { name: "React" },
+        { name: "Python" },
+        { name: "JavaScript" },
+        { name: "SQL" },
+        { name: "C" },
       ],
     },
     {
-      title: "AI & Data",
+      title: "Frontend Development",
+      skills: [
+        { name: "React" },
+        { name: "Tailwind CSS" },
+        { name: "HTML5 & CSS3" },
+        { name: "JavaScript (ES6+)" },
+      ],
+    },
+    {
+      title: "Backend Development",
+      skills: [
+        { name: "Django" },
+        { name: "Flask" },
+        { name: "REST APIs" },
+        { name: "FastAPI" },
+      ],
+    },
+    {
+      title: "AI & Machine Learning",
       skills: [
         { name: "NLP" },
         { name: "Scikit-learn" },
         { name: "OpenAI API" },
         { name: "Streamlit" },
+        { name: "TextRank & K-Means" },
       ],
     },
     {
-      title: "Tools & Databases",
+      title: "Databases",
       skills: [
         { name: "MySQL" },
+        { name: "SQLite" },
+        { name: "PostgreSQL" },
+      ],
+    },
+    {
+      title: "Tools & DevOps",
+      skills: [
         { name: "Git & GitHub" },
         { name: "VS Code" },
         { name: "Postman" },
+        { name: "Render" },
+        { name: "Vite" },
       ],
     },
   ],

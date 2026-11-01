@@ -15,7 +15,7 @@ function SkillCard({ category, index }) {
     <div
       data-aos="fade-up"
       data-aos-delay={index * 100}
-      className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:border-red-500/30 hover:shadow-[0_0_30px_rgba(255,42,42,0.1)]"
+      className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:scale-[1.02] hover:border-red-500/30 hover:shadow-[0_0_30px_rgba(255,42,42,0.15)]"
     >
       <h3 className="uppercase font-black text-white text-lg tracking-wide pb-3 mb-4 border-b border-white/10">
         {category.title}
@@ -39,9 +39,9 @@ export default function TechnicalSkills() {
       id="skills"
       className="bg-[#0a0a0a] pt-24 pb-28 px-6 md:px-12 relative overflow-hidden"
     >
-      {/* ── Blurred Background Circles ── */}
-      <div className="absolute -top-48 -left-48 w-96 h-96 bg-red-600/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute -bottom-48 -right-48 w-96 h-96 bg-red-600/10 rounded-full blur-[120px] pointer-events-none" />
+      {/* ── Two Blurred Red Circles in Background ── */}
+      <div className="absolute -top-32 -left-32 w-96 h-96 bg-red-600/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-red-600/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
         {/* ── Header ── */}
@@ -52,8 +52,8 @@ export default function TechnicalSkills() {
           <h2 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tight">
             My Skillset
           </h2>
-          <p className="text-white/50 mt-4 max-w-xl mx-auto">
-            Technologies and tools I use to bring ideas to life.
+          <p className="text-white/50 mt-4 max-w-xl mx-auto text-base">
+            Technologies, frameworks, and tools I use to build scalable web applications and intelligent systems.
           </p>
         </div>
 
@@ -71,4 +71,3 @@ export default function TechnicalSkills() {
     </section>
   );
 }
-
